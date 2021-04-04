@@ -1,0 +1,44 @@
+___________
+Typing Game
+___________
+
+
+[x]3 scenes: menu, game, end
+-----------------------------
+PLAYERPREFS: string playerNAME, int difficultySelected(0, 1, 2), int Score, int loadedScore, 
+int livesSelected(2,3,5), int currLivesPref,
+
+Fall Speeds (slow to fast): 0.5f, 1.0f, 2.0f; 
+[x]Menu Scene
+	[x]New Game Button
+		[x]Word speed slider or dropdown
+		[x]Input field with player name
+			[x]Next Button with a check for name input
+	[x]Load Game Button
+	[x]Quit Game
+
+[X]Game Scene
+	[x]Words are destroyed when they run off the screen
+	[x]Score
+	[x]Name
+	[X]Pause the game with the ESC key pulls up the menu with the buttons
+		[x]Buttons
+			[x]Resume
+			[X]Load
+			[X]Save
+			[x]New Game
+			[x]Json
+			[x]Music Toggle
+
+[x]Results/Exit/End Scene
+	[x]High Score list
+		[ ]Delete all scores button; maybe also put in options?
+		[x]No more than 10 scores accepted
+	[x]Return to Main Menu button
+	[x]Quit Game Button
+		
+[x]PlayerPrefs as in the Wenderlich tutorial
+	https://www.raywenderlich.com/418-how-to-save-and-load-a-game-in-unity  (how-to-save-and-load-a-game)
+
+[ ]Record
+
